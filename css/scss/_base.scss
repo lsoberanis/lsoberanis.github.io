@@ -1,4 +1,23 @@
 
-h1{
-    background-color: red;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: $primary1;
+}
+
+.top-container{
+    background-color: $secondary1;
+    color: white;
+    height: 42px;
+}
+
+.logo{
+    font-family: "JetBrains Mono";
+    padding: 5px;
+    
 }

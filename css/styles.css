@@ -1,4 +1,21 @@
-@import url("https://fonts.googleapis.com/css2?family=Overpass&family=Roboto&display=swap");
-h1 {
-  background-color: red;
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=JetBrains+Mono:ital@1&family=Overpass&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #00152C;
+}
+
+.top-container {
+  background-color: #D2A04F;
+  color: white;
+  height: 42px;
+}
+
+.logo {
+  font-family: "JetBrains Mono";
+  padding: 5px;
 }/*# sourceMappingURL=styles.css.map */
