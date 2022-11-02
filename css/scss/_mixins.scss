@@ -1,0 +1,22 @@
+@mixin respond($breakpoint) {
+    @media only screen and(max-width:$breakpoint){
+        @content;
+    }
+}
+
+@mixin respond2($breakpoint) {
+    @media only screen and(min-width:$breakpoint){
+        @content;
+    }
+}
+
+@mixin width($breakpoint){
+    max-width: 250px;
+}
+
+@mixin fontSize($size){
+    font-size: $size * 1px;
+    @include respond(500px){
+        font-size: $size - 5 * 1px;
+    }
+}
