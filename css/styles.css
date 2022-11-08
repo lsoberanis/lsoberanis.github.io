@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=JetBrains+Mono:ital@1&family=Overpass&family=Roboto&display=swap");
-* {
+*, *::before, *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,35 +9,74 @@ body {
   background-color: #00152C;
 }
 
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
 .top-container {
   color: white;
   height: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
   font-family: "JetBrains Mono";
   padding: 0px 10px;
   font-size: 18px;
-  vertical-align: middle;
-  transform: translate(0%, 25%);
+}
+
+.navbar {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+p.nav {
+  font-family: "Inter";
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 8px;
+}
+
+p.nav_p {
+  font-family: "Inter";
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 8px;
+  text-decoration: underline;
 }
 
 .slides-container {
   background-color: #003670;
   height: 280px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
 }
 
 .titles-c {
   width: 500px;
-  margin: auto;
 }
 
 .name-t-c {
-  background-color: #D2A04F;
+  background-color: rgba(210, 160, 79, 0.9);
   opacity: 0.85;
-  width: 480px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 460px;
+  margin: auto;
+  opacity: 0.8;
 }
 
 .name-t {
@@ -49,11 +88,10 @@ body {
 }
 
 .state-c {
-  background-color: #D2A04F;
+  background-color: rgba(210, 160, 79, 0.9);
   opacity: 0.85;
   width: 500px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 
 .state {
@@ -62,4 +100,79 @@ body {
   font-size: 25px;
   font-weight: 400;
   text-align: center;
+}
+
+.rec-proj-c {
+  padding: 30px 15px;
+}
+
+.proj-bar {
+  height: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.proj-t {
+  font-family: "Inter";
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #003670;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-family: "JetBrains Mono";
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover {
+  background-color: white;
+  color: #003670;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  font-family: "JetBrains Mono";
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  padding: 15px;
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 230px;
+  border: 1px solid #ddd;
+  z-index: 1;
+  right: 0;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block;
 }/*# sourceMappingURL=styles.css.map */
