@@ -182,8 +182,13 @@ p.nav_p {
 
 footer {
   background-color: #002D5E;
-  height: 20px;
+  height: auto;
   margin-bottom: 0px;
   color: white;
   font-family: "JetBrains Mono";
+  width: auto;
+}
+
+.p-footer {
+  padding: 5px;
 }/*# sourceMappingURL=styles.css.map */
