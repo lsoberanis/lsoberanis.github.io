@@ -79,10 +79,9 @@ p.nav_p{
 
 .name-t-c{
     background-color: $secondary1;
-    opacity: 0.85;
+    //opacity: 0.85;
     width: 460px;
     margin: auto;
-    opacity: 0.8;
 }
 
 .name-t{
@@ -95,7 +94,6 @@ p.nav_p{
 
 .state-c{
     background-color: $secondary1;
-    opacity: 0.85;
     width: 500px;
     margin: auto;
 }
@@ -130,7 +128,9 @@ p.nav_p{
 }
 
 .proj-c{
-
+    padding: 20px;
+    background-color: $secondary1;
+    height: 50px;
 }
 
 /* Dropdown Button */
@@ -183,3 +183,11 @@ p.nav_p{
   
   /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
   .show {display:block;}
+
+footer{
+    background-color: $primary3;
+    height: 20px;
+    margin-bottom: 0px;
+    color: white;
+    font-family: "JetBrains Mono";
+}
