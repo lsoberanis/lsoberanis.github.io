@@ -64,7 +64,7 @@ p.nav:hover {
 
 .slides-container {
   background-color: #003670;
-  height: 280px;
+  height: 250px;
   display: flex;
   flex-wrap: wrap;
   align-content: center;
@@ -125,9 +125,24 @@ p.nav:hover {
 }
 
 .proj-c {
-  padding: 20px;
+  padding: 20px 0px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.proj-i {
   background-color: rgba(210, 160, 79, 0.9);
-  height: 50px;
+  width: 600px;
+  height: 375px;
+}
+
+.proj-tx {
+  background-color: ivory;
+  width: 600px;
+  height: 375px;
 }
 
 /* Dropdown Button */
@@ -191,8 +206,9 @@ footer {
   color: white;
   font-family: "JetBrains Mono";
   width: auto;
+  font-style: normal;
 }
 
 .p-footer {
-  padding: 5px;
+  padding: 8px;
 }/*# sourceMappingURL=styles.css.map */

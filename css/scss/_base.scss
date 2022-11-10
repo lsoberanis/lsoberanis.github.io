@@ -69,7 +69,7 @@ p.nav:hover{
 
 .slides-container{
     background-color: $primary2;
-    height: 280px;
+    height: 250px;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -129,13 +129,30 @@ p.nav:hover{
     font-size: 25px;
     font-weight: 600;
     text-align: center;
+    
 }
 
 .proj-c{
-    padding: 20px;
-    background-color: $secondary1;
-    height: 50px;
+    padding: 20px 0px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
 }
+
+.proj-i{
+    background-color: $secondary1;
+    width: 600px;
+    height: 375px;
+}
+
+.proj-tx{
+    background-color: ivory;
+    width: 600px;
+    height: 375px;  
+}
+
 
 /* Dropdown Button */
 .dropbtn {
@@ -195,8 +212,10 @@ footer{
     color: white;
     font-family: "JetBrains Mono";
     width: auto;
+    font-style:normal;
 }
 
 .p-footer{
-    padding: 5px;
+    padding: 8px;
+    
 }
