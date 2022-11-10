@@ -58,6 +58,10 @@ p.nav_p {
   text-decoration: underline;
 }
 
+p.nav:hover {
+  text-decoration: underline;
+}
+
 .slides-container {
   background-color: #003670;
   height: 280px;
