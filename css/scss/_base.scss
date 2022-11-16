@@ -132,6 +132,42 @@ p.nav:hover{
     
 }
 
+.proj-t2{
+    font-family: "Inter";
+    color:white;
+    background-color: $secondary1;
+    font-size: 27px;
+    font-weight: 600;
+    padding: 5px;
+    //width: 200px;
+    
+}
+
+.proj-tx2{
+    font-family: "Inter";
+    color:black;
+    font-size: 25px;
+    padding: 5px;
+    //width: 200px;
+    
+}
+
+div.picture1 {
+    //width:200px; /*width of your image*/
+    height:375px; /*height of your image*/
+    background-image: $url1;
+    margin:0; /* If you want no margin */
+    padding:0; /*if your want to padding */
+ }
+
+ div.picture2 {
+    //width:200px; /*width of your image*/
+    height:375px; /*height of your image*/
+    background-image: $url2;
+    margin:0; /* If you want no margin */
+    padding:0; /*if your want to padding */
+ }
+
 .proj-c{
     padding: 20px 0px;
     height: auto;
@@ -215,7 +251,15 @@ footer{
     font-style:normal;
 }
 
+.f-c{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 5px;
+}
+
 .p-footer{
-    padding: 8px;
+    padding: 5px;
     
 }

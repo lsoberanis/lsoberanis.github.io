@@ -1,0 +1,18 @@
+div.icons{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-envelope{
+    width: 22px;
+    height: 22px;
+    background-image: url('assets/envelope-regular.svg');;
+}
+
+.fa-linkedin{
+    width: 17.5px;
+    height: 20px;
+    background-image: url('assets/linkedin.svg');;
+}

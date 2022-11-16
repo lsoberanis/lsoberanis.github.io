@@ -124,6 +124,36 @@ p.nav:hover {
   text-align: center;
 }
 
+.proj-t2 {
+  font-family: "Inter";
+  color: white;
+  background-color: rgba(210, 160, 79, 0.9);
+  font-size: 27px;
+  font-weight: 600;
+  padding: 5px;
+}
+
+.proj-tx2 {
+  font-family: "Inter";
+  color: black;
+  font-size: 25px;
+  padding: 5px;
+}
+
+div.picture1 {
+  height: 375px; /*height of your image*/
+  background-image: url("assets/temp.PNG");
+  margin: 0; /* If you want no margin */
+  padding: 0; /*if your want to padding */
+}
+
+div.picture2 {
+  height: 375px; /*height of your image*/
+  background-image: url("assets/temp2.PNG");
+  margin: 0; /* If you want no margin */
+  padding: 0; /*if your want to padding */
+}
+
 .proj-c {
   padding: 20px 0px;
   height: auto;
@@ -209,6 +239,33 @@ footer {
   font-style: normal;
 }
 
+.f-c {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 5px;
+}
+
 .p-footer {
-  padding: 8px;
+  padding: 5px;
+}
+
+div.icons {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-envelope {
+  width: 22px;
+  height: 22px;
+  background-image: url("assets/envelope-regular.svg");
+}
+
+.fa-linkedin {
+  width: 17.5px;
+  height: 20px;
+  background-image: url("assets/linkedin.svg");
 }/*# sourceMappingURL=styles.css.map */
