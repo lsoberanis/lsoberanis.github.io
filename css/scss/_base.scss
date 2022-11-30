@@ -111,7 +111,7 @@ p.nav:hover{
 }
 
 .rec-proj-c{
-    padding: 30px 15px;
+    padding-bottom: 15px;
 }
 
 .proj-bar{
@@ -121,6 +121,7 @@ p.nav:hover{
     align-content: center;
     justify-content: space-between;
     align-items: center;
+    padding: 25px 15px;
 }
 
 .proj-t{
@@ -129,7 +130,7 @@ p.nav:hover{
     font-size: 25px;
     font-weight: 600;
     text-align: center;
-    
+    padding: 25px 15px;
 }
 
 .proj-t2{
@@ -177,28 +178,18 @@ div.picture1 {
     justify-content: center;
 }
 
-.proj-i{
-    background-color: $secondary1;
-    width: 600px;
-    height: 375px;
-}
-
-.proj-tx{
-    background-color: ivory;
-    width: 600px;
-    height: 375px;  
-}
 
 
 /* Dropdown Button */
 .dropbtn {
     background-color: $primary2;
     color: white;
-    padding: 16px;
+    padding: 12px;
     font-size: 16px;
     border: none;
     cursor: pointer;
     font-family: "JetBrains Mono";
+
   }
   
   /* Dropdown button on hover & focus */
