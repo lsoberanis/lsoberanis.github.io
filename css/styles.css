@@ -378,4 +378,82 @@ div.icons {
   to {
     opacity: 1;
   }
+}
+.about {
+  padding: 15px 25px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+  align-items: center;
+}
+
+.m_text {
+  padding: 10px;
+  width: 500px;
+}
+
+.m_title {
+  font-family: "Inter";
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  padding: 5px 0px;
+}
+
+.m_tx {
+  padding: 5px;
+  font-family: "Inter";
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  width: 500px;
+}
+
+.prof {
+  padding: 15px 25px;
+  display: flex;
+}
+
+.prof_t {
+  font-family: "Inter";
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.res_b {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.res_but {
+  background-color: #002D5E;
+  outline-color: transparent;
+  color: white;
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-family: "JetBrains Mono";
+  font-style: normal;
+}
+
+.res_but:hover {
+  color: blue;
+  background-color: white;
+  font-size: 16px;
+}
+
+.icons {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.icon_s {
+  width: 100px;
+  height: 100px;
 }/*# sourceMappingURL=styles.css.map */
