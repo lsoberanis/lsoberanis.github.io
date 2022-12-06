@@ -47,7 +47,7 @@
 }
 
 .m_tx{
-    padding: 7px;
+    padding: 10px;
     font-family: "Inter";
     color:white;
     font-size: 25px;
@@ -71,9 +71,9 @@
 .prof_t{
     font-family: "Inter";
     color:white;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 600;
-    padding: 5px;
+    padding: 5px 20px;
 }
 
 .res_b{
@@ -100,10 +100,29 @@ button.res_but{
 
 }
 
+.icon-h{
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    @include respond(850px){
+        flex: 0 50.0%;
+        max-width: 50.0%;
+    }
+    @include respond(700px){
+        flex: 100%;
+        max-width: 100.0%;
+    }
+
+}
+
 .icons{
     display: flex;
     align-items: flex-start;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     flex-wrap: wrap;
 }
 
@@ -112,4 +131,12 @@ button.res_but{
     height: 100px;
     padding: 5px 10px;
 
+}
+
+.skill-t{
+    font-family: "Inter";
+    color:white;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
 }

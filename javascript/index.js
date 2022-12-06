@@ -112,3 +112,7 @@ function dropEnter() {
     }
   }
 
+function get3Width(){
+  var input = document.getElementById("body");
+  return (input.width() / 3);
+}

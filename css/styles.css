@@ -428,7 +428,7 @@ div.icons {
 }
 
 .m_tx {
-  padding: 7px;
+  padding: 10px;
   font-family: "Inter";
   color: white;
   font-size: 25px;
@@ -450,9 +450,9 @@ div.icons {
 .prof_t {
   font-family: "Inter";
   color: white;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 600;
-  padding: 5px;
+  padding: 5px 20px;
 }
 
 .res_b {
@@ -478,10 +478,32 @@ button.res_but {
   background-color: white;
 }
 
+.icon-h {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+@media only screen and (max-width: 850px) {
+  .icon-h {
+    flex: 0 50%;
+    max-width: 50%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .icon-h {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
 .icons {
   display: flex;
   align-items: flex-start;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   flex-wrap: wrap;
 }
 
@@ -489,4 +511,12 @@ button.res_but {
   width: 100px;
   height: 100px;
   padding: 5px 10px;
+}
+
+.skill-t {
+  font-family: "Inter";
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
 }/*# sourceMappingURL=styles.css.map */
