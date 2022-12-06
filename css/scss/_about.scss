@@ -2,13 +2,31 @@
     padding: 15px 25px;
     display: flex;
     justify-content: space-evenly;
-    align-items: stretch;
+    //align-items: stretch;
     align-items: center;
+    @include respond(600px){
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.mpic{
+    height: 395px;
+    @include respond(600px){
+        height: 200px;
+    }
 }
 
 .m_text{
     padding: 10px;
     width: 500px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    @include respond(600px){
+        width: 300px;
+    }
     //display:flex;
     //justify-content: center;
     //align-content: space-between;
@@ -34,6 +52,9 @@
     text-align: center;
     //text-align: justify;
     width: 500px;
+    @include respond(600px){
+        width: 300px;
+    }
 }
 
 .prof{
@@ -49,6 +70,7 @@
     color:white;
     font-size: 30px;
     font-weight: 600;
+    padding: 5px;
 }
 
 .res_b{
@@ -57,7 +79,7 @@
     justify-content: center;
 }
 
-.res_but{
+button.res_but{
     background-color: $primary3;
     outline-color: transparent;
     color: white;
@@ -80,10 +102,12 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .icon_s{
     width: 100px;
     height: 100px;
+    padding: 5px;
 
 }

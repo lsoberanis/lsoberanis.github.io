@@ -383,13 +383,36 @@ div.icons {
   padding: 15px 25px;
   display: flex;
   justify-content: space-evenly;
-  align-items: stretch;
   align-items: center;
+}
+@media only screen and (max-width: 600px) {
+  .about {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.mpic {
+  height: 395px;
+}
+@media only screen and (max-width: 600px) {
+  .mpic {
+    height: 200px;
+  }
 }
 
 .m_text {
   padding: 10px;
   width: 500px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media only screen and (max-width: 600px) {
+  .m_text {
+    width: 300px;
+  }
 }
 
 .m_title {
@@ -410,6 +433,11 @@ div.icons {
   text-align: center;
   width: 500px;
 }
+@media only screen and (max-width: 600px) {
+  .m_tx {
+    width: 300px;
+  }
+}
 
 .prof {
   padding: 15px 25px;
@@ -421,6 +449,7 @@ div.icons {
   color: white;
   font-size: 30px;
   font-weight: 600;
+  padding: 5px;
 }
 
 .res_b {
@@ -429,7 +458,7 @@ div.icons {
   justify-content: center;
 }
 
-.res_but {
+button.res_but {
   background-color: #002D5E;
   outline-color: transparent;
   color: white;
@@ -451,9 +480,11 @@ div.icons {
   display: flex;
   align-items: flex-start;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .icon_s {
   width: 100px;
   height: 100px;
+  padding: 5px;
 }/*# sourceMappingURL=styles.css.map */
