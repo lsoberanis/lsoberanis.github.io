@@ -42,11 +42,12 @@
     font-size: 40px;
     font-weight: 600;
     text-align: center;
-    padding: 5px 0px;
+    padding: 7px 7px;
+    background-color: $secondary1;
 }
 
 .m_tx{
-    padding: 5px;
+    padding: 7px;
     font-family: "Inter";
     color:white;
     font-size: 25px;
@@ -85,8 +86,8 @@ button.res_but{
     background-color: $primary3;
     outline-color: transparent;
     color: white;
-    padding: 12px 25px;
-    font-size: 16px;
+    padding: 15px 35px;
+    font-size: 20px;
     border: none;
     cursor: pointer;
     font-family: "JetBrains Mono";
@@ -96,7 +97,6 @@ button.res_but{
 .res_but:hover {
     color: blue;
     background-color: white;
-    font-size: 16px;
 
 }
 
@@ -110,6 +110,6 @@ button.res_but{
 .icon_s{
     width: 100px;
     height: 100px;
-    padding: 5px;
+    padding: 5px 10px;
 
 }
