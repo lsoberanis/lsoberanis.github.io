@@ -13,7 +13,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.2rem 1.5rem;
+    padding: 0.15rem 1.3rem;
 }
 
 .hamburger {
@@ -63,7 +63,7 @@ a {
     .nav-menu {
         position: fixed;
         left: -100%;
-        top: 5rem;
+        top: 2rem;
         flex-direction: column;
         background-color: $primary1;
         width: 100%;
