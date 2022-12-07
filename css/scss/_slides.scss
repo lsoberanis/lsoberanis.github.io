@@ -67,6 +67,7 @@
 
       max-width: 100%;
       max-height: 100%;  
+      flex: 0%;
 
   }
 
@@ -87,7 +88,8 @@
   
   .slide-i{
     max-height: 100%;
-    object-fit: fill;
+    max-width: 100%;
+    object-fit: contain;
     //object-position: 100% 0;
   }
 
