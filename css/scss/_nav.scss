@@ -50,7 +50,9 @@ a {
 }
 
 .nav-link:hover{
-    color: #482ff7;
+    //color: #482ff7;
+    text-decoration: underline;
+    font-weight: 600;
 }
 
 .nav-logo {

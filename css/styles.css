@@ -35,6 +35,10 @@ a:visited {
   font-size: 24px;
 }
 
+.logo:hover {
+  filter: drop-shadow(1px 1px 1px rgba(255, 255, 255, 0.2));
+}
+
 .navbar {
   width: auto;
   display: flex;
@@ -130,31 +134,6 @@ p.nav_p {
   justify-content: space-between;
   align-items: center;
   padding: 25px 15px;
-}
-
-.proj-t {
-  font-family: "Inter";
-  color: white;
-  font-size: 25px;
-  font-weight: 600;
-  text-align: center;
-  padding: 25px 15px;
-}
-
-.proj-t2 {
-  font-family: "Inter";
-  color: white;
-  background-color: rgba(210, 160, 79, 0.9);
-  font-size: 27px;
-  font-weight: 600;
-  padding: 5px;
-}
-
-.proj-tx2 {
-  font-family: "Inter";
-  color: black;
-  font-size: 25px;
-  padding: 5px;
 }
 
 div.picture1 {
@@ -278,7 +257,7 @@ div.icons {
 /* Slideshow container */
 .slideshow-container {
   flex: 100%;
-  max-width: 90%;
+  max-width: 88%;
   position: relative;
   margin: auto;
 }
@@ -286,7 +265,7 @@ div.icons {
 /* Hide the images by default */
 .mySlides {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-content: center;
   justify-content: center;
   height: 375px;
@@ -296,19 +275,70 @@ div.icons {
     height: 275px;
   }
 }
+@media only screen and (max-width: 630px) {
+  .mySlides {
+    height: 250px;
+  }
+}
 
 .proj-i {
-  background-color: rgba(210, 160, 79, 0.9);
-  flex: 60% 0%;
+  max-width: 100%;
+  max-height: 100%;
+}
+@media only screen and (max-width: 630px) {
+  .proj-i {
+    max-width: 50%;
+  }
+}
+
+.proj-t {
+  font-family: "Inter";
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  padding: 25px 15px;
+}
+
+.proj-t2 {
+  font-family: "Inter";
+  color: white;
+  background-color: rgb(210, 160, 79);
+  font-size: 27px;
+  font-weight: 600;
+  padding: 5px;
+}
+@media only screen and (max-width: 880px) {
+  .proj-t2 {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 630px) {
+  .proj-t2 {
+    font-size: 17px;
+  }
+}
+
+.proj-tx {
   max-width: 100%;
   max-height: 100%;
 }
 
-.proj-tx {
-  background-color: ivory;
-  flex: 0 40%;
-  max-width: 100%;
-  max-height: 100%;
+.proj-tx2 {
+  font-family: "Inter";
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  padding: 5px 10px;
+}
+@media only screen and (max-width: 880px) {
+  .proj-tx2 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 630px) {
+  .proj-tx2 {
+    font-size: 15px;
+  }
 }
 
 .slide-i {
@@ -334,6 +364,14 @@ div.icons {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+}
+
+.prev {
+  margin-left: -15px;
+}
+
+.next {
+  margin-right: -15px;
 }
 
 /* Position the "next button" to the right */
@@ -598,7 +636,8 @@ a {
 }
 
 .nav-link:hover {
-  color: #482ff7;
+  text-decoration: underline;
+  font-weight: 600;
 }
 
 .nav-logo {

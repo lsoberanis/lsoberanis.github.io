@@ -39,6 +39,10 @@ a:visited{
     
 }
 
+.logo:hover{
+    filter: drop-shadow(1px 1px 1px rgba(255, 255, 255, 0.2))
+}
+
 .navbar{
     width: auto;
     display: flex;
@@ -143,34 +147,9 @@ p.nav_p{
     padding: 25px 15px;
 }
 
-.proj-t{
-    font-family: "Inter";
-    color:white;
-    font-size: 25px;
-    font-weight: 600;
-    text-align: center;
-    padding: 25px 15px;
-}
 
-.proj-t2{
-    font-family: "Inter";
-    color:white;
-    background-color: $secondary1;
-    font-size: 27px;
-    font-weight: 600;
-    padding: 5px;
-    //width: 200px;
-    
-}
 
-.proj-tx2{
-    font-family: "Inter";
-    color:black;
-    font-size: 25px;
-    padding: 5px;
-    //width: 200px;
-    
-}
+
 
 div.picture1 {
     //width:200px; /*width of your image*/
