@@ -2,7 +2,8 @@
 *, *::before, *::after{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    //box-sizing: border-box;
+    box-sizing: inherit;
 }
 
 
@@ -68,7 +69,10 @@ p.nav:hover{
 }
 
 .slides-container{
-    background-color: $primary2;
+    //background-color: $primary2;
+    background-image: url("./assets/header.png");
+    object-fit: cover;
+    object-position: 100% 0;
     height: 250px;
     display: flex;
     flex-wrap: wrap;
@@ -77,14 +81,17 @@ p.nav:hover{
 }
 
 .titles-c{
-    width: 500px;
+    flex: 70%;
+    max-width: 60%;
+
     
 }
 
 .name-t-c{
     background-color: $secondary1;
     //opacity: 0.85;
-    width: 460px;
+    flex: 100%;
+    max-width: 1000%;
     margin: auto;
 }
 
@@ -94,11 +101,16 @@ p.nav:hover{
     font-size: 40px;
     font-weight: 600;
     text-align: center;
+    @include respond(640px){
+        font-size: 30px;
+        font-weight: 600;
+    }
 }
 
 .state-c{
     background-color: $secondary1;
-    width: 500px;
+    flex: 100%;
+    max-width: 1000%;
     margin: auto;
 }
 
@@ -108,6 +120,10 @@ p.nav:hover{
     font-size: 25px;
     font-weight: 400;
     text-align: center;
+    @include respond(640px){
+        font-size: 15px;
+        font-weight: 400;
+    }
 }
 
 .rec-proj-c{
