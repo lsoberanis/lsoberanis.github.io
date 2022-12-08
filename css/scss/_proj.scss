@@ -26,8 +26,6 @@
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-    flex: 100%;
-    max-width: 100%;
     flex-direction: column;
     justify-content: flex-start;
 
@@ -69,7 +67,7 @@
     flex: 50% 0%;
     max-width: 50%;
       @include respond(700px){
-        flex: 100%
+        flex: 100%;
         max-width: 100%;
     }
         

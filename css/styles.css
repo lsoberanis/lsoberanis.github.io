@@ -710,8 +710,6 @@ a {
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
-  flex: 100%;
-  max-width: 100%;
   flex-direction: column;
   justify-content: flex-start;
 }
@@ -738,6 +736,12 @@ a {
   flex: 0% 50%;
   max-width: 50%;
 }
+@media only screen and (max-width: 700px) {
+  .Pproj-tx {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
 
 .Pproj-i {
   max-width: 100%;
@@ -745,9 +749,10 @@ a {
   flex: 50% 0%;
   max-width: 50%;
 }
-@media only screen and (max-width: 630px) {
+@media only screen and (max-width: 700px) {
   .Pproj-i {
-    max-width: 50%;
+    flex: 100%;
+    max-width: 100%;
   }
 }
 
