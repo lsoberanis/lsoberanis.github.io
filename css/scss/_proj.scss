@@ -1,11 +1,18 @@
 .proj-cg{
     display:flex;
     flex-direction:column;
+    padding: 10px;
+}
+
+.proj-ar{
+    display:flex;
+    flex-direction:column;
+    padding: 10px;
 }
 
 .Pproj-c{
     padding: 20px 0px;
-    height: auto;
+    height: 375px;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -14,6 +21,13 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+
+    @include respond(880px){
+        max-height: 275px;
+    }
+      @include respond(630px){
+        max-height: 250px;
+    }
 
     // @include respond(700px){
     //     flex: 100%;
@@ -40,3 +54,10 @@
     }
         
 }
+
+.slide-i{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    //object-position: 100% 0;
+  }
