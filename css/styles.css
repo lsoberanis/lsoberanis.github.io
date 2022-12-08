@@ -685,12 +685,21 @@ a {
 .proj-cg {
   display: flex;
   flex-direction: column;
+  align-content: center;
+  padding: 10px;
+}
+
+.proj-vz {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
   padding: 10px;
 }
 
 .proj-ar {
   display: flex;
   flex-direction: column;
+  align-content: center;
   padding: 10px;
 }
 
@@ -701,14 +710,20 @@ a {
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
-  flex: 0 50%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  flex: 100%;
+  max-width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 @media only screen and (max-width: 880px) {
   .Pproj-c {
     max-height: 275px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .Pproj-c {
+    flex: 80%;
+    max-width: 80%;
   }
 }
 @media only screen and (max-width: 630px) {
@@ -727,6 +742,8 @@ a {
 .Pproj-i {
   max-width: 100%;
   max-height: 100%;
+  flex: 50% 0%;
+  max-width: 50%;
 }
 @media only screen and (max-width: 630px) {
   .Pproj-i {
