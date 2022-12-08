@@ -572,6 +572,7 @@ button.res_but {
   align-items: flex-start;
   justify-content: flex-start;
   flex-wrap: wrap;
+  padding: 7px;
 }
 
 .icon_s {
@@ -679,5 +680,39 @@ a {
   }
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+  }
+}
+.proj-cg {
+  display: flex;
+  flex-direction: column;
+}
+
+.Pproj-c {
+  padding: 20px 0px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  flex: 0 50%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.Pproj-tx {
+  max-width: 100%;
+  max-height: 100%;
+  flex: 0% 50%;
+  max-width: 50%;
+}
+
+.Pproj-i {
+  max-width: 100%;
+  max-height: 100%;
+}
+@media only screen and (max-width: 630px) {
+  .Pproj-i {
+    max-width: 50%;
   }
 }/*# sourceMappingURL=styles.css.map */
