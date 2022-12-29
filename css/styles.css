@@ -275,7 +275,7 @@ div.icons {
     height: 275px;
   }
 }
-@media only screen and (max-width: 630px) {
+@media only screen and (max-width: 730px) {
   .mySlides {
     height: 250px;
   }
@@ -284,8 +284,9 @@ div.icons {
 .proj-i {
   max-width: 100%;
   max-height: 100%;
+  display: flex;
 }
-@media only screen and (max-width: 630px) {
+@media only screen and (max-width: 730px) {
   .proj-i {
     max-width: 50%;
   }
@@ -317,6 +318,10 @@ div.icons {
   .proj-t2 {
     font-size: 17px;
   }
+}
+
+.proj-t2:hover {
+  text-decoration: underline;
 }
 
 .proj-tx {
@@ -472,7 +477,6 @@ div.icons {
   display: flex;
   text-align: center;
   justify-content: center;
-  flex-wrap: wrap;
   align-items: center;
   flex-direction: column;
 }
@@ -553,6 +557,7 @@ button.res_but {
   align-content: center;
   flex-direction: column;
   align-items: center;
+  padding: 0px;
 }
 @media only screen and (max-width: 850px) {
   .icon-h {
@@ -572,7 +577,7 @@ button.res_but {
   align-items: flex-start;
   justify-content: flex-start;
   flex-wrap: wrap;
-  padding: 7px;
+  padding: 8px;
 }
 
 .icon_s {
@@ -687,6 +692,7 @@ a {
   flex-direction: column;
   align-content: center;
   padding: 10px;
+  align-items: center;
 }
 
 .proj-vz {
@@ -694,13 +700,15 @@ a {
   flex-direction: column;
   align-content: center;
   padding: 10px;
+  align-items: center;
 }
 
-.proj-ar {
+.proj-at {
   display: flex;
   flex-direction: column;
   align-content: center;
   padding: 10px;
+  align-items: center;
 }
 
 .Pproj-c {
@@ -713,20 +721,17 @@ a {
   flex-direction: column;
   justify-content: flex-start;
 }
-@media only screen and (max-width: 880px) {
-  .Pproj-c {
-    max-height: 275px;
-  }
-}
 @media only screen and (max-width: 700px) {
   .Pproj-c {
     flex: 80%;
     max-width: 80%;
+    flex-wrap: nowrap;
   }
 }
 @media only screen and (max-width: 630px) {
   .Pproj-c {
-    max-height: 250px;
+    max-height: auto;
+    flex-wrap: nowrap;
   }
 }
 
@@ -746,7 +751,7 @@ a {
 .Pproj-i {
   max-width: 100%;
   max-height: 100%;
-  flex: 50% 0%;
+  flex: 0% 50%;
   max-width: 50%;
 }
 @media only screen and (max-width: 700px) {

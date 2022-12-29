@@ -3,6 +3,7 @@
     flex-direction:column;
     align-content: center;
     padding: 10px;
+    align-items: center;
 }
 
 .proj-vz{
@@ -10,13 +11,15 @@
     flex-direction:column;
     align-content: center;
     padding: 10px;
+    align-items: center;
 }
 
-.proj-ar{
+.proj-at{
     display:flex;
     flex-direction:column;
     align-content: center;
     padding: 10px;
+    align-items: center;
 }
 
 .Pproj-c{
@@ -29,15 +32,14 @@
     flex-direction: column;
     justify-content: flex-start;
 
-    @include respond(880px){
-        max-height: 275px;
-    }
     @include respond(700px){
         flex: 80%;
         max-width: 80%;
+        flex-wrap: nowrap;
     }
       @include respond(630px){
-        max-height: 250px;
+        max-height: auto;
+        flex-wrap: nowrap;
     }
 
     // @include respond(700px){
@@ -64,9 +66,9 @@
     //background-color: $secondary1;
     max-width: 100%;
     max-height: 100%;
-    flex: 50% 0%;
+    flex: 0% 50%;
     max-width: 50%;
-      @include respond(700px){
+    @include respond(700px){
         flex: 100%;
         max-width: 100%;
     }
