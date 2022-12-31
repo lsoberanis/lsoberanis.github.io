@@ -278,12 +278,14 @@ div.icons {
 }
 @media only screen and (max-width: 880px) {
   .mySlides {
-    height: 275px;
+    flex-direction: column;
+    height: auto;
   }
 }
 @media only screen and (max-width: 730px) {
   .mySlides {
-    height: 250px;
+    flex-direction: column;
+    height: auto;
   }
 }
 
@@ -294,14 +296,14 @@ div.icons {
 }
 @media only screen and (max-width: 730px) {
   .proj-i {
-    max-width: 50%;
+    justify-content: center;
   }
 }
 
 .proj-t {
   font-family: "Inter";
   color: white;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 600;
   text-align: center;
   padding: 25px 15px;
@@ -345,6 +347,8 @@ div.icons {
 @media only screen and (max-width: 880px) {
   .proj-tx2 {
     font-size: 20px;
+    align-content: center;
+    text-align: center;
   }
 }
 @media only screen and (max-width: 630px) {
@@ -527,7 +531,7 @@ div.icons {
 .prof_t {
   font-family: "Inter";
   color: white;
-  font-size: 40px;
+  font-size: 38px;
   font-weight: 600;
   padding: 5px 20px;
 }

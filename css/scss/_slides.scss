@@ -19,10 +19,12 @@
     justify-content: center;
     height: 375px;
     @include respond(880px){
-      height: 275px;
+      flex-direction: column;
+      height: auto;
   }
     @include respond(730px){
-      height: 250px;
+      flex-direction: column;
+      height: auto;
   }
   }
 
@@ -32,7 +34,8 @@
     max-height: 100%;
     display: flex;
       @include respond(730px){
-        max-width: 50%;
+        //max-width: 80%;
+        justify-content: center;
     }
         
     }
@@ -40,7 +43,7 @@
     .proj-t{
       font-family: "Inter";
       color:white;
-      font-size: 25px;
+      font-size: 30px;
       font-weight: 600;
       text-align: center;
       padding: 25px 15px;
@@ -83,6 +86,8 @@
     padding: 5px 10px;
     @include respond(880px){
         font-size: 20px;
+        align-content: center;
+        text-align: center;
     }
     @include respond(630px){
       font-size: 15px;
