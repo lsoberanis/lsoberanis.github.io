@@ -9,6 +9,9 @@
 
 body{
     background-color: $primary1;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 a:link{
@@ -233,11 +236,14 @@ div.picture1 {
 footer{
     background-color: $primary3;
     height: auto;
+    left: 0;
+    bottom: 0;
     margin-bottom: 0px;
     color: white;
     font-family: "JetBrains Mono";
     width: auto;
     font-style:normal;
+    margin-top: auto;
 }
 
 .f-c{
