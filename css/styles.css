@@ -777,4 +777,8 @@ a {
   max-width: 100%;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.link:hover {
+  color: blue;
 }/*# sourceMappingURL=styles.css.map */
