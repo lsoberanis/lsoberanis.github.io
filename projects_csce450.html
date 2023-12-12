@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lawrence Soberanis</title>
+    <script src="./javascript/index.js" defer></script>
+    <script src="./javascript/slides.js" defer></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="icon" href="./css/assets/lg.PNG">
+</head>
+<body>
+    <!--top nav bar --> 
+    <div class="navbar">
+        <p class="logo">
+            <a class="logo" href="/">LS</a>
+            <!--LS-->
+        </p>
+        <nav class="navbar">
+            
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link" style="text-decoration: underline;">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about_me.html" class="nav-link">About Me</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </div>
+
+    <!--// 5 recent projects -->
+    <div class="rec-proj-c">
+        <div class="proj-bar">
+            <div class="proj-t-c">
+                <h2 class="prof_t">CSCE 450 Final Project: </h2>
+            </div>
+            <!--<div class="filter-c"> // held off for now
+                <div class="dropdown">
+                    <button onmouseenter="dropEnter()" class="dropbtn">Filter v</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <input type="checkbox" id="cg" name="cg" value="cg">
+                        <label for="cg"> Computer Graphics</label><br>
+                        <input type="checkbox" id="viz" name="viz" value="viz">
+                        <label for="viz"> Visualization</label><br>
+                        <input type="checkbox" id="art" name="art" value="art">
+                        <label for="art"> Art</label><br>
+                    </div>
+                  </div>
+            </div>-->
+        </div>
+
+        <div class="proj-cg">
+            <div class="proj-t-c">
+                <h1 class="proj-t" style="padding: 5px">Computer Graphics: </h1>
+            </div>
+
+                <div class="Pproj-c">
+                    <div class="Pproj-i">
+                        <img class="Pslide-i" src="css/assets/proj/raytrace.PNG" style="height:100%; width: 100%; object-fit: cover;">
+                    </div>
+                    <div class="Pproj-tx">
+                        <h2 class="proj-t2" id="Ray" name="Ray" style="text-decoration: none;">Accelerated Ray Tracing</h2>
+                        <p class="proj-tx2">Fall 2022, CSCE 441: Computer Graphics </p> 
+                        <p class="proj-tx2">Full implementation of ray-tracing using only defined shape and light vectors to render a realistically illuminated 3D representation of a scene. Accelerated by the implementation of the Bounding Volume Hierarchy. Made using C++ and OpenGL. </p>
+                    </div>
+        
+                </div>
+
+            <!--<div class="Pproj-c">
+                <div class="Pproj-i">
+                    <img class="Pslide-i" src="css/assets/proj/bunny.PNG" style="height:100%; width: 100%; object-fit: cover;">
+                </div>
+                <div class="Pproj-tx">
+                    <h2 class="proj-t2" >Project #2</h2>
+                    <p class="proj-tx2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta expedita alias nihil rem! Quis culpa cupiditate ex exercitationem alias dolore ipsa non numquam commodi corporis, aperiam sapiente iste blanditiis esse?</p>
+                </div>
+    
+            </div> -->
+        </div>
+        
+        <br><br><br><br>
+
+</body>
+
+<footer>
+
+    <!--// footer elements -->
+    <div class="f-c">
+        <p class="p-footer">Contacts: </p>
+        <div class="icons">
+            <p class="p-footer">Email: </p>
+            <a href = "mailto: soberanislara@gmail.com">
+                <svg class="fa-envelope"></svg>
+            </a>
+            <p class="p-footer"> LinkedIn: </p>
+            <a href="https://www.linkedin.com/in/lara-soberanis-631769198/" target="_blank">
+                <svg class="fa-linkedin"></svg>
+            </a>
+        </div>
+    </div>
+    
+</footer>
+</html>
