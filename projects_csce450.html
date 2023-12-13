@@ -69,7 +69,7 @@
                         <img class="Pslide-i" src="css/assets/proj/Intro_img.png" style="height:100%; width: 100%; object-fit: cover;">
                     </div>
                     <div class="Pproj-tx">
-                        <p class="proj-tx2">For my Final project in CSCE 450, I looked into implementing Mixamo Motion Capture Animation Data onto an SMPL OBJ Model. Specifically, the project focused on properly mapping local rotations from picked bones in the Mixamo rig to the bones in the SMPL rig. 3 different Mixamo files were extracted and tested on the rig to target and understand what type of motions work best in mapping. Image credits to: Ertug Sagman https://medium.com/huawei-developers/creating-a-motion-capture-application-using-hms-3d-modelling-kit-and-kotlin-33b2318cb9e </p>
+                        <p class="proj-tx2">For my Final project in CSCE 450, I looked into implementing Mixamo Motion Capture Animation Data onto an SMPL OBJ Model. Specifically, the project focused on properly mapping local rotations from picked bones in the Mixamo rig to the bones in the SMPL rig. 3 different Mixamo files were extracted and tested on the rig to target and understand what type of motions work best in mapping. Image credits to: Ertug Sagman on Medium </p>
                     </div>
         
                 </div>
@@ -79,8 +79,9 @@
                         <img class="Pslide-i" src="css/assets/proj/mapping.png" style="height:100%; width: 100%; object-fit: cover;">
                     </div>
                     <div class="Pproj-tx">
-                        <p class="proj-tx2">As mentioned above, the mapping of certain bones from the Mixamo rig to the SMPL rig was done. The image included here demonstrates each of the bones/joints chosen to map to each respective part. Additionally, the Mixamo Rig chosen was the rig of "Pete" as it had the closest amount of bones and position locations to that of the SMPL model. 
-                            After this, the local translations of the picked joints from the Mixamo Motion Capture Animation Data would be applied as the input animation data that the SMPL model would use. Below are 3 examples of the produced animations on the SMPL model with comparison of the original Mixamo data.
+                        <p class="proj-tx2">As mentioned above, the mapping of certain bones from the Mixamo rig to the SMPL rig was done. The image included here demonstrates each of the bones/joints chosen to map to each respective part. Additionally, the Mixamo Rig chosen was the rig of "Pete" as it had the closest amount of bones and position locations to that of the SMPL model. Then, the generation of the SMPL OBJ's are done
+                            based on A3B's tasks.
+                            After this, the local translations of the picked joints from the Mixamo Motion Capture Animation Data would be applied as the input animation data that the SMPL model would use. Below are 3 examples of the produced animations on the SMPL model with a comparison of the original Mixamo data. (Note: The SMPL data is moving at a slower frame rate as to show the joint movement.)
                         
                         </p>
                     </div>
@@ -118,7 +119,7 @@
 
                 <div class="Pproj-c" style="height: auto">
                     <div class="Pproj-tx">
-                        <pre class="proj-tx2">Hurricane Kick for Fun:</pre>
+                        <pre class="proj-tx2">Hurricane Kick (for Fun):</pre>
                     </div>
                 </div>
 
@@ -133,8 +134,11 @@
 
                 <div class="Pproj-c" style="height: auto">
                     <div class="Pproj-tx">
-                        <pre class="proj-tx2">Overall, after implementing these beginning animations, there is a clear.
-                        </pre>
+                        <p class="proj-tx2">While there are present issues with certain joints not moving as intended (mainly with the arms & legs), other joints are moving in line with the original Mixamo animation. Specifically, the main parent pelvis translation is being applied correctly, as well as, the translations for the hands. 
+                            Demonstrating that the translation of Mixamo Animation Data can be feasible to apply towards SMPL OBJ models. There needs to be further work
+                            over which joints may be better than others to map to; as the root of the movement's issue typically relates to the joint it was mapped to.
+                            Additionally, the final presentation video is included below for further reference.
+                        </p>
                     </div>
                 </div>
 
@@ -144,11 +148,12 @@
 
                 <div class="Pproj-c" style="height: auto">
                     <div class="Pproj-tx">
-                        <pre class="proj-tx2">Credits & Sources for implementing this project: 
+                        <pre class="proj-tx2">Credits & Sources: 
                         1. Input motion data was downloaded from mixamo.com
                         2. SMPL Model was downloaded from smpl.is.tue.mpg.de
                             @article{SMPL:2015,
-                              author = {Loper, Matthew and Mahmood, Naureen and Romero, Javier and Pons-Moll, Gerard and Black, Michael J.},
+                              author = {Loper, Matthew and Mahmood, Naureen and Romero,
+                              Javier and Pons-Moll, Gerard and Black, Michael J.},
                               title = {{SMPL}: A Skinned Multi-Person Linear Model},
                               journal = {ACM Trans. Graphics (Proc. SIGGRAPH Asia)},
                               month = oct,
